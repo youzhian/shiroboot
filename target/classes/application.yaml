@@ -12,7 +12,13 @@ spring:
     log-request-details: true
 nacos:
   config:
+    bootstrap:
+      enable: true
     server-addr: 127.0.0.1:8848
-    namespace: test
+    namespace: 67cf667d-7bd2-4de1-9cf9-39ba6fb51a0b
+    type: yaml
+    data-id: shiroboot
+    group: DEFAULT_GROUP
     username: nacos
     password: nacos
+    auto-refresh: true

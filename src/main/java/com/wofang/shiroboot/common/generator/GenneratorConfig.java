@@ -13,11 +13,11 @@ public class GenneratorConfig {
     /**
      * 数据库驱动类名
      */
-    public static String driverName = "com.mysql.jdbc.Driver";
+    public static String driverName = "com.mysql.cj.jdbc.Driver";
     /**
      * 数据库连接地址
      */
-    public static String dataUrl = "jdbc:mysql://localhost:3306/wofang_datacenter?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&serverTimezone=Asia/Shanghai";
+    public static String dataUrl = "jdbc:mysql://localhost:3306/shiroboot?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&serverTimezone=Asia/Shanghai";
     /**
      * 数据库用户名
      */
